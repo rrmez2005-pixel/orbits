@@ -1,4 +1,8 @@
-#include "orbiter.h"
+#include "Orbiter.h"
+
+// A scaling factor by which to reduce the force applied when orbiting
+// Important for numerical stability
+static constexpr bn::fixed FORCE_SCALE = 10;
 
 void Orbiter::update() {
    // A vector from the Orbiter to the Center

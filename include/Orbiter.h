@@ -1,5 +1,10 @@
 #pragma once
 
+#include <bn_fixed_point.h>
+#include <bn_sprite_ptr.h>
+#include "Center.h"
+#include "bn_sprite_items_dot.h"
+
 class Orbiter {
     public:
         /**
